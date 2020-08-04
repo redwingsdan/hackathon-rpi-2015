@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PlaylistCreator</string>
+    <string name="title">Welcome to Playlist Creator!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button1">Create Playlist</string>
+    <string name="button2">Edit Playlist</string>
+    <string name="button3">Back to Menu</string>
+    <string name="playlist_sample1">Workout Playlist</string>
+    <string name="playlist_sample2">Progressive Playlist</string>
+    <string name="playlist_sample3">Trap Playlist</string>
+    <string name="dialog_text">Would you like to add this song to the current playlist?</string>
+    <string name="dialog_title">Add to Playlist</string>
+    <string name="error">Would you like to add to playlist?</string>
+    <string name="action_settings">Settings</string>
+</resources>

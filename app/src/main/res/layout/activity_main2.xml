@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@color/background_floating_material_dark"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a song to the playlist:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#f6fff6"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="Arial"
+        android:editable="false"
+        android:layout_marginTop="10dp" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="360dp"
+        android:id="@+id/songList"
+        android:layout_weight="1.06">
+    </ListView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="@string/button3"
+        android:layout_marginTop="05dp"
+        android:scrollIndicators="right" />
+
+</LinearLayout>
